@@ -43,7 +43,7 @@ import riaLogo from './assets/education_logo/riaLogo.jpg';
 
 // Project Section Logo's
 import imagetea from './assets/work_logo/imagetea.png';
-// import csprepLogo from './assets/work_logo/cs_prep.png';
+import cravio from './assets/work_logo/cravio.png';
 // import movierecLogo from './assets/work_logo/movie_rec.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 // import npmLogo from './assets/work_logo/npm.png';
@@ -208,16 +208,16 @@ export const SkillsInfo = [
       github: ".",
       webapp: ".",
     },
-//     {
-//       id: 1,
-//       title: "CS Prep",
-//       description:
-//         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-//       image: csprepLogo,
-//       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-//       github: "https://github.com/codingmastr/CSPrep",
-//       webapp: "https://csprep.netlify.app/",
-//     },
+   {
+      id: 1,
+      title: "Cravio-A Food Delivery Site",
+      description:
+        "Cravio is a full-stack food delivery application that enables users to order food from nearby restaurants, track deliveries in real time, and make secure online or COD payments. Restaurant owners receive instant order updates and manage order status, while delivery partners accept orders, navigate routes, and complete deliveries using OTP verification. The platform uses real-time communication for seamless order flow and live tracking.",
+      image: cravio,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","API","Razorpay","Socket.io"],
+      github: "https://github.com/Utkarsh0983/Cravio",
+      webapp: "https://cravio-wo9h.onrender.com",
+    },
 //     {
 //       id: 2,
 //       title: "Movie Recommendation App",
