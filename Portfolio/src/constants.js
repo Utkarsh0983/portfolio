@@ -214,7 +214,7 @@ export const SkillsInfo = [
       description:
         "Cravio is a full-stack food delivery application that enables users to order food from nearby restaurants, track deliveries in real time, and make secure online or COD payments. Restaurant owners receive instant order updates and manage order status, while delivery partners accept orders, navigate routes, and complete deliveries using OTP verification.",
       image: cravio,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","API","Razorpay","Socket.io"],
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","Razorpay","Socket.io"],
       github: "https://github.com/Utkarsh0983/Cravio",
       webapp: "https://cravio-wo9h.onrender.com",
     },
