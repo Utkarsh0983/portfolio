@@ -13,3 +13,18 @@ html {
 section {
   scroll-margin-top: 90px;   /* height of your navbar */
 }
+
+
+/* Thin black scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+}
