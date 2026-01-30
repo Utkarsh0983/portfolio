@@ -47,7 +47,7 @@ const Work = () => {
             {/* Modal Container */}
             {selectedProject && (
                 <div className='fixed inset-0 z-50 flex items-center justify-center bg-black/90  p-4'>
-                    <div className='bg-gray-900 rounded-xl shadow-2xl lg:w-full  w-[80%] max-w-3xl overflow-hidden relative'>
+                    <div className='bg-gray-900 rounded-xl shadow-2xl lg:w-full  w-[90%] max-w-3xl max-h-[90vh] overflow-y-auto  relative'>
                         <div className='flex justify-end p-4'>
                             <button onClick={handleCloseModal} className='text-white text-3xl font-bold hover:text-purple-500'>&times;</button>
                         </div>
