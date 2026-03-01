@@ -44,8 +44,8 @@ import riaLogo from './assets/education_logo/riaLogo.jpg';
 // Project Section Logo's
 import imagetea from './assets/work_logo/imagetea.png';
 import cravio from './assets/work_logo/cravio.png';
-// import movierecLogo from './assets/work_logo/movie_rec.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
+import shopease from './assets/work_logo/shopease.png';
+import Admin_dashboard from './assets/work_logo/Admin_dashboard.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
@@ -218,26 +218,26 @@ export const SkillsInfo = [
       github: "https://github.com/Utkarsh0983/Cravio",
       webapp: "https://cravio-wo9h.onrender.com",
     },
-//     {
-//       id: 2,
-//       title: "Movie Recommendation App",
-//       description:
-//         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-//       image: movierecLogo,
-//       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-//       github: "https://github.com/codingmastr/Movie-Recommendation-App",
-//       webapp: "https://movie-recommendation-app-jet.vercel.app/",
-//     },
-//     {
-//       id: 3,
-//       title: "Email Validator NPM Package",
-//       description:
-//         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-//       image: npmLogo,
-//       tags: ["React JS", "Node.js", "NPM", "Validation"],
-//       github: "https://github.com/codingmastr/cmtk-email-validator",
-//       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-//     },
+    {
+      id: 2,
+      title: "Shopease-A Ecommerce Site",
+      description:
+        "ShopEase is a production-ready full-stack eCommerce platform designed to provide a seamless online shopping experience. The user application allows customers to browse products, manage cart and wishlist, apply coupons, make secure payments, and track orders — all with a responsive, modern UI.The application is fully deployed and optimized for real-world usage.",
+      image: shopease,
+      tags: ["React JS", "API", "Cloudinary", "Razorpay", "Node.js"],
+      github: "https://github.com/Utkarsh0983/ShopEase",
+      webapp: "https://shop-ease-tau-two.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Admin Dashboard- For Ecommerce Site",
+      description:
+        "The ShopEase Admin Dashboard is a complete eCommerce management system designed to handle product inventory, order management, user activity, and business analytics in real time.It provides a centralized interface for store administrators to efficiently manage operations, track performance metrics, and monitor revenue — all through a responsive and secure dashboard.",
+      image: Admin_dashboard,
+      tags: ["React JS", "Node.js", "Cloudinary", "Razorpay"],
+      github: "https://github.com/Utkarsh0983/ShopEase",
+      webapp: "https://shop-ease-ea2g.vercel.app/",
+    },
 //     {
 //       id: 4,
 //       title: "Task Reminder Chrome Extension Tool",
