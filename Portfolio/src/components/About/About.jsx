@@ -44,7 +44,7 @@ const About = () => {
                         Currently, I'm exploring mobile app development with React Native and continuously improving my problem-solving skills by building real-world projects.
                     </p>
                     {/* resume button */}
-                    <a href="https://drive.google.com/file/d/1r8F77HgwigpECE-UEYHBa5-JQVYmQ_HZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+                    <a href="https://drive.google.com/file/d/14-UtSp5hSxKyh9Ani60-me0ADqxWGm1m/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
                         className='inline-block text-white py-3 px-8 rounded-full mt-3 text-lg font-bold transition duration-300 hover:scale-105'
                         style={{
                             background:"linear-gradient(90deg, #8245ec, #a855f7)",
