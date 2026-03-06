@@ -42,7 +42,7 @@ import bietLogo from './assets/education_logo/bietLogo.jpg';
 import riaLogo from './assets/education_logo/riaLogo.jpg';
 
 // Project Section Logo's
-import imagetea from './assets/work_logo/imagetea.png';
+// import imagetea from './assets/work_logo/imagetea.png';
 import cravio from './assets/work_logo/cravio.png';
 import shopease from './assets/work_logo/shopease.png';
 import Admin_dashboard from './assets/work_logo/Admin_dashboard.png';
@@ -198,18 +198,18 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
-      id: 0,
-      title: "Patreon Clone",
-      description:
-        "A clone of the popular Patreon platform, built with Next.js and MongoDB. Users can create and manage their subscription-based content, while patrons can easily browse and support their favorite creators. The application features secure authentication, payment integration, and a user-friendly interface for both creators and patrons.",
-      image: imagetea,
-      tags: ["HTML", "CSS", "JavaScript", "Next JS", "API", "MongoDB", "Next Auth" ],
-      github: ".",
-      webapp: ".",
-    },
+    // {
+    //   id: 0,
+    //   title: "Patreon Clone",
+    //   description:
+    //     "A clone of the popular Patreon platform, built with Next.js and MongoDB. Users can create and manage their subscription-based content, while patrons can easily browse and support their favorite creators. The application features secure authentication, payment integration, and a user-friendly interface for both creators and patrons.",
+    //   image: imagetea,
+    //   tags: ["HTML", "CSS", "JavaScript", "Next JS", "API", "MongoDB", "Next Auth" ],
+    //   github: ".",
+    //   webapp: ".",
+    // },
    {
-      id: 1,
+      id: 0,
       title: "Cravio-A Food Delivery Site",
       description:
         "Cravio is a full-stack food delivery application that enables users to order food from nearby restaurants, track deliveries in real time, and make secure online or COD payments. Restaurant owners receive instant order updates and manage order status, while delivery partners accept orders, navigate routes, and complete deliveries using OTP verification.",
@@ -219,7 +219,7 @@ export const SkillsInfo = [
       webapp: "https://cravio-wo9h.onrender.com",
     },
     {
-      id: 2,
+      id: 1,
       title: "Shopease-A Ecommerce Site",
       description:
         "ShopEase is a production-ready full-stack eCommerce platform designed to provide a seamless online shopping experience. The user application allows customers to browse products, manage cart and wishlist, apply coupons, make secure payments, and track orders — all with a responsive, modern UI.The application is fully deployed and optimized for real-world usage.",
@@ -229,7 +229,7 @@ export const SkillsInfo = [
       webapp: "https://shop-ease-tau-two.vercel.app/",
     },
     {
-      id: 3,
+      id: 2,
       title: "Admin Dashboard- For Ecommerce Site",
       description:
         "The ShopEase Admin Dashboard is a complete eCommerce management system designed to handle product inventory, order management, user activity, and business analytics in real time.It provides a centralized interface for store administrators to efficiently manage operations, track performance metrics, and monitor revenue — all through a responsive and secure dashboard.",
